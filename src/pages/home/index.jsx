@@ -1,4 +1,4 @@
-import HomeHero from "./hero/Hero";
+import HomeHero from "./hero";
 
 export default function Home() {
   return (
