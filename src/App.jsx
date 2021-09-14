@@ -1,4 +1,4 @@
-import HomePage from "./pages/home/HomePage";
+import Home from "./pages/home";
 import CategoryPage from "./pages/category/CategoryPage";
 
 export default function App() {
@@ -6,7 +6,7 @@ export default function App() {
     <div className="App">
       <h1>Folder organization</h1>
 
-      <HomePage />
+      <Home />
       <CategoryPage />
     </div>
   );
