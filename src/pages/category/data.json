@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "name": "React",
+    "category": "functional"
+  },
+  {
+    "id": 2,
+    "name": "Vue",
+    "category": "oop"
+  },
+  {
+    "id": 3,
+    "name": "Svelte",
+    "category": "functional"
+  }
+]
