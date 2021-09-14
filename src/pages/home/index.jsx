@@ -1,10 +1,10 @@
-import HomeHero from "./hero";
+import Hero from "./hero";
 
 export default function Home() {
   return (
     <div id="home">
       <h2>Home from summer</h2>
-      <HomeHero />
+      <Hero />
     </div>
   );
 }
