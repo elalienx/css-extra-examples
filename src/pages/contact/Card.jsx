@@ -2,7 +2,7 @@ export default function CategoryCard({ item }) {
   const { imageURL, title, description } = item;
 
   return (
-    <article className="category-card">
+    <article className="card">
       <img className="image" src={imageURL} alt={title} />
       <div className="container">
         <h3>{title}</h3>

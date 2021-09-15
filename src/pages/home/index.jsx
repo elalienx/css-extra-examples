@@ -24,8 +24,10 @@ export default function Home() {
     <div id="home">
       <h2>Home from summer</h2>
       <p>Counter: @{counter}@</p>
-      <button onClick={onIncrease}>Increase counter</button>
-      <button onClick={onDecrease}>Decrease counter</button>
+      <div className="cards">
+        <button onClick={onIncrease}>Increase counter</button>
+        <button onClick={onDecrease}>Decrease counter</button>
+      </div>
       <Hero />
     </div>
   );

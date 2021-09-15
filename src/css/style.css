@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.App {
+  background-color: blanchedalmond;
+}
+
+#contact {
+  background-color: lightcyan;
+}
+
+#contact .card {
+  background-color: white;
+}
+
+/* Media query for desktop */
+@media screen and (min-width: 960px) {
+  #contact .card {
+    display: flex;
+    flex-direction: row;
+  }
+
+  /* firt and third (left) */
+  #contact .card:nth-child(odd) {
+  }
+
+  /* second (right  */
+  #contact .card:nth-child(even) {
+    flex-direction: row-reverse;
+  }
+
+  #contact .card .container {
+    flex-grow: 1;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+  }
+}
