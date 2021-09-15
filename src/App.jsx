@@ -1,7 +1,7 @@
-import Home from "./pages/home";
-import Category from "./pages/category";
-import Contact from "./pages/contact";
 import "./css/style.css";
+import Category from "./sections/category";
+import Contact from "./sections/contact";
+import Home from "./sections/home";
 
 export default function App() {
   return (
