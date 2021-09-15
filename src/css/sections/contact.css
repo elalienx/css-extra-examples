@@ -6,26 +6,45 @@
   background-color: white;
 }
 
-/* Media query for desktop */
-@media screen and (min-width: 960px) {
+#contact .card .container {
+  padding: var(--space-big);
+}
+
+/* Larger than mobile */
+@media (min-width: 400px) {
+  #contact .card .image {
+    width: 100%;
+  }
+}
+
+/* Larger than phablet */
+@media (min-width: 550px) {
+  /* This move to a horizontal layout */
   #contact .card {
     display: flex;
     flex-direction: row;
   }
 
-  /* firt and third (left) */
-  #contact .card:nth-child(odd) {
+  /* This make each side 50% wide */
+  #contact .card .image,
+  #contact .card .container {
+    max-width: 50%;
   }
 
-  /* second (right  */
+  /* Fix image proportion */
+  #contact .card .image {
+    object-fit: cover;
+  }
+
+  /* Alter the image location */
   #contact .card:nth-child(even) {
     flex-direction: row-reverse;
   }
 
+  /* Center the text vertically and horizontally */
   #contact .card .container {
-    flex-grow: 1;
     display: grid;
-    justify-content: center;
-    align-content: center;
+    align-self: center;
+    justify-self: center;
   }
 }
