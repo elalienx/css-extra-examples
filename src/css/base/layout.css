@@ -12,7 +12,6 @@ img {
 }
 
 .App {
-  background-color: lightgray;
   font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
 }
 
@@ -22,44 +21,4 @@ h3,
 h4,
 p {
   margin-top: 0;
-}
-
-/* Mobile first queries */
-.App {
-  background-color: red;
-}
-
-/* Larger than mobile */
-@media (min-width: 400px) {
-  .App {
-    background-color: green;
-  }
-}
-
-/* Larger than phablet */
-@media (min-width: 550px) {
-  .App {
-    background-color: blue;
-  }
-}
-
-/* Larger than tablet */
-@media (min-width: 750px) {
-  .App {
-    background-color: yellow;
-  }
-}
-
-/* Larger than desktop */
-@media (min-width: 1000px) {
-  .App {
-    background-color: purple;
-  }
-}
-
-/* 5. Bigger than Desktop (ultra wide) */
-@media (min-width: 1200px) {
-  .App {
-    background-color: gray;
-  }
 }

@@ -7,4 +7,5 @@
 /* Sections */
 @import url("./sections/category.css");
 @import url("./sections/contact.css");
+@import url("./sections/contact/card.css");
 @import url("./sections/home.css");

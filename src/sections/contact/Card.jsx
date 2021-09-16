@@ -5,8 +5,10 @@ export default function CategoryCard({ item }) {
     <article className="card">
       <img className="image" src={imageURL} alt={title} />
       <div className="container">
-        <h3>{title}</h3>
-        <p>{description}</p>
+        <div className="center">
+          <h3>{title}</h3>
+          <p>{description}</p>
+        </div>
       </div>
     </article>
   );
