@@ -22,7 +22,7 @@ export default function Hero() {
 
   return (
     <div id="hero" className="container">
-      <h1>Home from summer</h1>
+      <h1>Welcome to our site</h1>
       <p>Counter: @{counter}@</p>
 
       {/* Example of component imports */}

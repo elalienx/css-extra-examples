@@ -8,7 +8,7 @@ export default function Products() {
 
   return (
     <div id="products">
-      <h2>Contact</h2>
+      <h2 className="container">Products</h2>
       <section className="cards">{Cards}</section>
     </div>
   );
