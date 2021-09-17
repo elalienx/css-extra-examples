@@ -1,0 +1,32 @@
+#products .card
+    .image
+        width: 100%
+        object-fit: cover
+    
+    .container
+        padding: $space-big
+
+@media (min-width: $media-tablet)
+    // This move to a horizontal layout
+    #products .card
+        display: flex
+        flex-direction: row
+
+        // This make each side 50% wide
+        .image, .container
+            width: 50%
+
+        // Center the text
+        .container
+            display: grid
+            align-self: center
+            justify-self: center
+
+        // Limit the text lenght
+        .center
+            margin: 0 auto
+            max-width: 430px
+
+    // Alter the image location
+    #products .card
+        flex-direction: row-reverse
