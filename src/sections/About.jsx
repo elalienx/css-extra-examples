@@ -18,7 +18,7 @@ export default function About() {
   ));
 
   return (
-    <div id="category">
+    <div id="about">
       <h2>Category</h2>
       <p>random text goes here...</p>
       <ul>{Items}</ul>

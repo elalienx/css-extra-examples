@@ -21,7 +21,7 @@ export default function Hero() {
   }
 
   return (
-    <div className="hero">
+    <div id="hero">
       <h1>Home from summer</h1>
       <p>Counter: @{counter}@</p>
 

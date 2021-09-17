@@ -7,7 +7,7 @@ export default function Products() {
   const Cards = data.map((item) => <CardProduct key={item.id} item={item} />);
 
   return (
-    <div id="contact">
+    <div id="products">
       <h2>Contact</h2>
       <section className="cards">{Cards}</section>
     </div>
