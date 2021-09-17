@@ -1,9 +1,9 @@
-// HERO.JSX
-
+// NPM packages
 import { useState } from "react";
-import Hero from "./hero";
 
-export default function Home() {
+// Project files
+
+export default function Hero() {
   const [counter, setCounter] = useState(0);
 
   // Methods
@@ -21,14 +21,22 @@ export default function Home() {
   }
 
   return (
-    <div id="home">
-      <h2>Home from summer</h2>
+    <div className="hero">
+      <h1>Home from summer</h1>
       <p>Counter: @{counter}@</p>
-      <div className="cards">
+
+      {/* Example of component imports */}
+      <section>
+        <p>The best course of the Spring 2022</p>
+        <ul></ul>
+        <button>Click here</button>
+      </section>
+
+      {/* Example of button counter */}
+      <section className="cards">
         <button onClick={onIncrease}>Increase counter</button>
         <button onClick={onDecrease}>Decrease counter</button>
-      </div>
-      <Hero />
+      </section>
     </div>
   );
 }

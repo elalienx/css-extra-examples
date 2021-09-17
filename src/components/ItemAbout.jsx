@@ -1,4 +1,4 @@
-export default function Item({ item }) {
+export default function ItemAbout({ item }) {
   const { id, name, category } = item;
 
   return (
