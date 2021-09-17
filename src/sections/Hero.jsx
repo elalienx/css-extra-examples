@@ -21,7 +21,7 @@ export default function Hero() {
   }
 
   return (
-    <div id="hero">
+    <div id="hero" className="container">
       <h1>Home from summer</h1>
       <p>Counter: @{counter}@</p>
 

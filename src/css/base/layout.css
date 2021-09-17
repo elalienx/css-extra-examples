@@ -1,3 +1,4 @@
+/* First put your HTML tags */
 * {
   box-sizing: border-box;
 }
@@ -11,14 +12,26 @@ img {
   height: auto;
 }
 
-.App {
-  font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
-}
-
 h1,
 h2,
 h3,
 h4,
 p {
   margin-top: 0;
+}
+
+/* First put your classes */
+.App {
+  font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+}
+
+.container {
+  margin: var(--space-medium);
+}
+
+@media (min-width: 1000px) {
+  .container {
+    margin: 0 auto;
+    max-width: 960px;
+  }
 }
