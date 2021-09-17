@@ -1,6 +1,6 @@
 /* Special case for the cards on monitors bigger than full HD */
 @media (min-width: 2500px) {
-  #contact .cards {
+  #products .cards {
     margin: 0 auto;
     max-width: 1920px;
   }

@@ -3,9 +3,9 @@
 @import url("./base/variables.css");
 
 /* Components */
+@import url("./components/card-product.css");
 
 /* Sections */
-@import url("./sections/category.css");
-@import url("./sections/contact.css");
-@import url("./sections/contact/card.css");
-@import url("./sections/home.css");
+@import url("./sections/about.css");
+@import url("./sections/hero.css");
+@import url("./sections/products.css");
