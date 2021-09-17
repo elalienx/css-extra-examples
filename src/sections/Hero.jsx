@@ -21,22 +21,24 @@ export default function Hero() {
   }
 
   return (
-    <div id="hero" className="container">
-      <h1>Welcome to our site</h1>
-      <p>Counter: @{counter}@</p>
+    <div id="hero">
+      <div className="container">
+        <h1>Welcome to our site</h1>
+        <p>Counter: @{counter}@</p>
 
-      {/* Example of component imports */}
-      <section>
-        <p>The best course of the Spring 2022</p>
-        <ul></ul>
-        <button>Click here</button>
-      </section>
+        {/* Example of component imports */}
+        <section>
+          <p>The best course of the Spring 2022</p>
+          <ul></ul>
+          <button>Click here</button>
+        </section>
 
-      {/* Example of button counter */}
-      <section className="cards">
-        <button onClick={onIncrease}>Increase counter</button>
-        <button onClick={onDecrease}>Decrease counter</button>
-      </section>
+        {/* Example of button counter */}
+        <section className="cards">
+          <button onClick={onIncrease}>Increase counter</button>
+          <button onClick={onDecrease}>Decrease counter</button>
+        </section>
+      </div>
     </div>
   );
 }
