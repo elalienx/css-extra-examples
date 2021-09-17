@@ -21,6 +21,13 @@ export default function About() {
     <div id="about" className="container">
       <h2>About</h2>
       <p>random text goes here...</p>
+
+      {/* Single proportional element */}
+      <div className="proportional-scale">
+        <h3>Hello world</h3>
+      </div>
+
+      {/* Multiple proprotional elements? */}
       <ul>{Items}</ul>
     </div>
   );
